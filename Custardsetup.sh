@@ -4,5 +4,8 @@ sudo apt-get install git
 sudo wget http://goo.gl/1BOfJ -O /usr/bin/rpi-update
 sudo chmod +x /usr/bin/rpi-update
 sudo rpi-update
+
+
+ehco "/etc/modprobe.d/raspi-blacklist.conf"
 echo "Your Raspberry Pi will now Restart"
 sudo shutdown -r now
