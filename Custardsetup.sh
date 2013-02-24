@@ -7,5 +7,7 @@ sudo rpi-update
 
 
 ehco "/etc/modprobe.d/raspi-blacklist.conf"
+
+sudo modprobe i2c-dev
 echo "Your Raspberry Pi will now Restart"
 sudo shutdown -r now
